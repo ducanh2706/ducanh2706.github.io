@@ -25,11 +25,13 @@ Hãy cùng xem qua một vài ví dụ để hiểu rõ hơn về **Tìm kiếm 
 
 ### Statement
 Cho một dãy số gồm $n$ phần tử $a_1, a_2, ..., a_n$. Bạn phải viết chương trình để trả lời $q$ câu hỏi có dạng $(l$, $r$, $k)$ là in ra số lớn thứ $k$ trong các số thuộc đoạn $a_l$, $a_{l+1}$,$...$, $a_r$.
+
 ### Input
 - Dòng đầu tiên gồm số nguyên dương $n$ $(1 \le n \le 50000)$.
 - Dòng thứ hai gồm $n$ số nguyên dương $a_1$, $a_2$,$...$, $a_n$ $(1 \le a_i \le 10^9)$.
 - Dòng thứ ba gồm số nguyên dương $q$ $(1 \le q \le 50000)$.
 - Trong $q$ dòng tiếp theo, dòng thứ $i$ gồm $3$ số $l_i, r_i, k_i$ $(1 \le l_i \le r_i \le n, 1 \le k_i \le r_i - l_i+1)$.
+
 ### Output
 - Gồm $q$ dòng, dòng thứ $i$ ($1 \le i \le q)$ là đáp án của truy vấn thứ $i$.
 
